@@ -7,4 +7,32 @@ html,
 body {
   height: 100%;
 }
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.container-flex, nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 15px;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -6,3 +6,13 @@ html,
 body {
     height: 100%;
 }
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: flex-start;
+}

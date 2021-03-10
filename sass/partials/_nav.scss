@@ -1,0 +1,16 @@
+nav{
+    padding: 20px 0;
+    
+    .container{
+        @extend .container-flex;
+    }
+    ul{
+        margin: 0;
+    }
+
+    li{
+        list-style: none;
+        display: inline;
+        padding: 0 15px;
+    }
+}
