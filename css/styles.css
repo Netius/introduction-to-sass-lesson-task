@@ -78,18 +78,29 @@ nav a.active {
   border-radius: 2px;
 }
 
+section .circle {
+  border: 5px solid;
+  border-radius: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 section .circle1 {
   height: 150px;
   width: 150px;
+  border-color: #E28413;
 }
 
 section .circle2 {
   height: 200px;
   width: 200px;
+  border-color: #059F81;
 }
 
 section .circle3 {
   height: 250px;
   width: 250px;
+  border-color: #2C2C2C;
 }
 /*# sourceMappingURL=styles.css.map */

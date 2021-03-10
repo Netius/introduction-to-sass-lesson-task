@@ -2,6 +2,11 @@ section{
     .container{
         @extend .container-flex;
     }
+    .circle{
+        border: 5px solid;
+        border-radius: 50%;
+        align-self: center;
+    }
 
     .circle1{
         height: 150px;
@@ -17,6 +22,6 @@ section{
     .circle3{
         height: 250px;
         width: 250px;
-        border-color: getColor(black);
+        border-color: getColor(darkgrey);
     }
 }
