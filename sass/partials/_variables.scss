@@ -10,3 +10,7 @@ $borders: (
     green: #059F81,
     black: #000022
 );
+
+@function getBordersColor($border) {
+    @return map-get($borders, $border);
+}

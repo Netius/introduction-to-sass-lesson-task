@@ -1,6 +1,16 @@
 nav{
-    padding: 20px 0;
+    padding: 10px 0;
     
+    .logo{
+        font-family: $font-headings;
+        font-weight: bold;
+        font-size: 32px;
+    }
+    a{
+        text-decoration: none;
+        color: black
+    }
+
     .container{
         @extend .container-flex;
     }
@@ -11,6 +21,14 @@ nav{
     li{
         list-style: none;
         display: inline;
-        padding: 0 15px;
-    }
+        padding: 0 5px;
+        margin: 0 10px;
+        font-size: 22px;
+        
+        &:hover{
+            border-bottom: solid 4px map-get($borders, green);
+            border-radius: 2px;
+        }
+    } 
+    
 }

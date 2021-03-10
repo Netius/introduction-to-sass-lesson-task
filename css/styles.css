@@ -6,6 +6,11 @@
 html,
 body {
   height: 100%;
+  font-family: "open sans", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "montserrat", sans-serif;
 }
 
 .container {
@@ -17,13 +22,24 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav {
-  padding: 20px 0;
+  padding: 10px 0;
+}
+
+nav .logo {
+  font-family: "montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
 nav ul {
@@ -33,6 +49,13 @@ nav ul {
 nav li {
   list-style: none;
   display: inline;
-  padding: 0 15px;
+  padding: 0 5px;
+  margin: 0 10px;
+  font-size: 22px;
+}
+
+nav li:hover {
+  border-bottom: solid 4px #059F81;
+  border-radius: 2px;
 }
 /*# sourceMappingURL=styles.css.map */
