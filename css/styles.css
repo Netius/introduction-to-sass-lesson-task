@@ -79,17 +79,17 @@ nav a.active {
 }
 
 section .circle1 {
-  height: circleHeigth(50px);
-  width: circleWidth(50px);
+  height: 150px;
+  width: 150px;
 }
 
 section .circle2 {
-  height: circleHeigth(100px);
-  width: circleWidth(100px);
+  height: 200px;
+  width: 200px;
 }
 
-section .circle2 {
-  height: circleHeigth(150px);
-  width: circleWidth(150px);
+section .circle3 {
+  height: 250px;
+  width: 250px;
 }
 /*# sourceMappingURL=styles.css.map */
