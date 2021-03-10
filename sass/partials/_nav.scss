@@ -1,14 +1,15 @@
 nav{
-    padding: 10px 0;
+    padding: 15px 0;
+    background-color: getColor(white) ;
     
     .logo{
         font-family: $font-headings;
         font-weight: bold;
-        font-size: 32px;
+        font-size: 26px;
     }
     a{
         text-decoration: none;
-        color: black
+        color: getColor(darkgrey);
     }
 
     .container{
@@ -24,11 +25,10 @@ nav{
         padding: 0 5px;
         margin: 0 10px;
         font-size: 22px;
-        
-        &:hover{
-            border-bottom: solid 4px map-get($borders, green);
-            border-radius: 2px;
-        }
     } 
+    a.active{
+            border-bottom: solid 4px getColor(green);
+            border-radius: 2px;
+    }
     
 }

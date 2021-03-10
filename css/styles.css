@@ -3,10 +3,16 @@
           box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   height: 100%;
   font-family: "open sans", sans-serif;
+  background-color: #F2F2F2;
 }
 
 h1, h2, h3, h4 {
@@ -18,28 +24,41 @@ h1, h2, h3, h4 {
   width: 90%;
 }
 
-.container-flex, nav .container {
+.container-flex, nav .container, section .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 nav {
-  padding: 10px 0;
+  padding: 15px 0;
+  background-color: #FFFFFF;
 }
 
 nav .logo {
   font-family: "montserrat", sans-serif;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 26px;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #2C2C2C;
 }
 
 nav ul {
@@ -54,8 +73,23 @@ nav li {
   font-size: 22px;
 }
 
-nav li:hover {
+nav a.active {
   border-bottom: solid 4px #059F81;
   border-radius: 2px;
+}
+
+section .circle1 {
+  height: circleHeigth(50px);
+  width: circleWidth(50px);
+}
+
+section .circle2 {
+  height: circleHeigth(100px);
+  width: circleWidth(100px);
+}
+
+section .circle2 {
+  height: circleHeigth(150px);
+  width: circleWidth(150px);
 }
 /*# sourceMappingURL=styles.css.map */

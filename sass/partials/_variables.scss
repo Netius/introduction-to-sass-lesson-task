@@ -2,15 +2,16 @@ $font-primary: "open sans", sans-serif;
 $font-headings: "montserrat", sans-serif;
 
 $colours: (
-
-);
-
-$borders: (
     orange: #E28413,
     green: #059F81,
-    black: #000022
+    black: #000022,
+    white: #FFFFFF,
+    lightgrey: #F2F2F2,
+    darkgrey: #2C2C2C,
+    // c-black: #000022
 );
 
-@function getBordersColor($border) {
-    @return map-get($borders, $border);
+@function getColor($color) {
+    @return map-get($colours, $color);
 }
+

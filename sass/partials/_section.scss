@@ -1,0 +1,19 @@
+section{
+    .container{
+        @extend .container-flex;
+    }
+
+    .circle1{
+        height: circleHeigth(50px);
+        width: circleWidth(50px);
+        
+    }
+    .circle2{
+        height: circleHeigth(100px);
+        width: circleWidth(100px);
+    }
+    .circle2{
+        height: circleHeigth(150px);
+        width: circleWidth(150px);
+    }
+}

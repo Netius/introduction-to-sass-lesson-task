@@ -1,11 +1,16 @@
 * {
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 html,
 body {
     height: 100%;
     font-family: $font-primary;
+    background-color: getColor(lightgrey);
 }
 
 h1,h2,h3,h4{
@@ -19,5 +24,12 @@ h1,h2,h3,h4{
 
 .container-flex{
     display: flex;
-    align-items: center;
+    // align-items: center;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
